@@ -16,14 +16,18 @@
         <img id="plane" src="assets/plane.jpg">
       </a-assets>
       
-      <a-obj-model src="#tree" position="-9.081 0 -10" scale=".25 .25 .25" color="green"></a-obj-model>
+      <a-obj-model src="#tree" position="-10 0 -10" rotation="0 45 0" scale=".25 .25 .25" color="#4b6e4e"></a-obj-model>
+      <a-obj-model src="#tree" position="-15 0 -20" scale=".25 .25 .25" color="#246b2a"></a-obj-model>
+      <a-obj-model src="#tree" position="-4 0 -20" scale=".25 .25 .25" color="#1a5403"></a-obj-model>
+      <a-obj-model src="#tree" position="-15 0 -8" scale=".25 .25 .25" color="#035417"></a-obj-model>
       
-      <a-obj-model src="#tree" position="-5 0 -20" scale=".5 .5 .5" material="shader:flat;src:#plane"></a-obj-model>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane src="#plane" position="0 0 -4" rotation="-90 0 0" width="20" height="20"></a-plane>
-      <a-sky src="#sky1" radius="30"></a-sky>
+      <a-cone position="0 0 0" radius="0.5" height="2.5" color="#592e02"></a-cone>
+      <a-cone position="0 0 3" radius="0.5" height="2.5" color="#694302"></a-cone>
+      <a-cone position="0 0 6" radius="0.5" height="2.5" color="#1a5403"></a-cone>
+      <a-cone position="0 0 9" radius="0.5" height="2.5" color="#035417"></a-cone>
+
+      <a-plane src="#plane" position="0 0 0" rotation="-90 0 0" width="60" height="60" color="green"></a-plane>
+      <a-sky src="#sky1" radius="30" color="#334d07"></a-sky>
     </a-scene>
   </body>
 </html>
